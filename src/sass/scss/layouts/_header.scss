@@ -1,0 +1,16 @@
+.header {
+    margin-top: 50px;
+        &__date {
+            font-weight: bold;
+            position: absolute;
+            left: 10%;
+            top: 80px;
+        }
+        &__logo {
+            display: block;
+            width: 30%;
+            margin: auto;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+}

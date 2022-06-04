@@ -1,0 +1,12 @@
+.search {
+    padding: 20px 0 20px 0;
+    background-color: #1A1A1A;
+        &__input {
+            display: block;
+            margin: auto;
+            border-radius: 7px;
+            width: 20%;
+            height: 40px;
+            padding: 0 10px 0 10px;
+        }
+}

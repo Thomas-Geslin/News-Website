@@ -1,0 +1,8 @@
+.sidebar {
+    background-color: grey;
+    width: 20%;
+        &__title {
+            text-align: center;
+            margin-top: 50px;
+        }
+}

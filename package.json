@@ -12,7 +12,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "sass": "sass --watch ./src/sass/scss/:./src/sass/css/",
+    "start": "set PORT=8080 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

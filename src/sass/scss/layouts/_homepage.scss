@@ -1,0 +1,33 @@
+.homepage {
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-right: 60px;
+    margin-top: 70px;
+        &__article {
+            width: 90%;
+            border-radius: 5px;
+            box-shadow: 7px 6px 15px 1px #828282;
+            justify-self: center;
+            margin-bottom: 50px;
+            text-decoration: none;
+            overflow: hidden;
+            color: black;
+                &__title {
+                    width: 70%;
+                    text-align: center;
+                    margin: auto;
+                    margin-top: 30px;
+                    margin-bottom: 50px;
+                }
+                &__picture {
+                    width: 100%;
+                }
+        }
+}
+
+.HomeFlex {
+    display: flex;
+    justify-content: space-between;
+}
