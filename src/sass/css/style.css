@@ -379,14 +379,22 @@ template {
 .search {
   padding: 20px 0 20px 0;
   background-color: #1A1A1A;
+  display: flex;
+  justify-content: center;
 }
 .search__input {
-  display: block;
-  margin: auto;
   border-radius: 7px;
   width: 20%;
   height: 40px;
   padding: 0 10px 0 10px;
+  margin-right: 40px;
+}
+.search__button {
+  width: 6%;
+  border-radius: 7px;
+}
+.search__button:hover {
+  cursor: pointer;
 }
 
 .sidebar {
